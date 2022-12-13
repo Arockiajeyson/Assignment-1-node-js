@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+#container{
+    margin-top: 50px;
+    margin-left: 200px;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    margin-top: 10px;
+    margin-left: 200px;
+}
+#top-div,#bottom-div{
+    display: flex;
+    flex-direction: row;
+}
+img{
+    width: 247.5px;
+    height: 200px;
+    margin: 5px;
+}
+button{
+    background-color: rgb(124, 7, 235);
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: 900;
+}
