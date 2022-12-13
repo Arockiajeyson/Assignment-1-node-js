@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I’m not a robot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div><h1>Select 2 Identical Tiles</h1></div>
+        <div id="top-div">
+            <div id="img-1" data-ns-test="img1" onclick="imgages(0)" class="img"></div>
+            <div id="img-2" data-ns-test="img2" onclick="imgages(1)" class="img"></div>
+            <div id="img-3" data-ns-test="img3" onclick="imgages(2)" class="img"></div>
+        </div>
+        <div id="bottom-div">
+            <div id="img-4" data-ns-test="img4" onclick="imgages(3)" class="img"></div>
+            <div id="img-5" data-ns-test="img5" onclick="imgages(4)" class="img"></div>
+            <div id="img-6" data-ns-test="img6" onclick="imgages(5)" class="img"></div>
+        </div>
+    </div>
+    <div class="button">
+        <button id="reset" onclick="reset()">reset</button>
+        <button id="button" onclick="button()">click</button>
+        <p id="para"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
